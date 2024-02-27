@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 * {
   border: 0;
   box-sizing: border-box;
@@ -8,6 +9,11 @@
 body {
   display: flex;
   justify-content: center;
+  height: 100vh;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 body p {
   display: flex;
